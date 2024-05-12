@@ -1,0 +1,15 @@
+
+<link rel="stylesheet" href="style.css">
+
+
+
+<!-- Menú de navegación del sitio -->
+<ul class="navbar">
+<li><a href="index.html">Datos básicos</a>
+<li><a href="Preferencias.html">Preferencias</a>
+<li><a href="Ejercicios.html">Ejercicios</a>
+<li><a href="Fomulario.html">Formulario</a>
+</ul>
+
+https://www.w3.org/TR/CSS21/
+

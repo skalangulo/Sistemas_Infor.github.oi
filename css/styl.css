@@ -1,0 +1,144 @@
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: 0B911C;
+  background-color: #BEFCD2 }
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif; color:blue}
+h1.frm {
+  font-family: "Segoe UI", Geneva, Arial,
+        SunSans-Regular, sans-serif; color:gray;
+		text-align:center;height:25px
+}
+
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid gray }
+ul.navbar a {
+  text-decoration: underline }
+a:link {
+  color: 1DE4BB }
+a:visited {
+  color: 0B9173 }
+address {
+  margin-top: 1em;
+  font-family:;
+  font-size: x-small;
+  font-style:italic;
+  padding-top: 1em;
+  border-top: thin dotted }
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+form {
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: white;
+  color: black;
+}
+
+
+input.info{
+  width: 300px;	
+}
+
+
+ textarea {
+  font: 1em sans-serif;
+  /* Ancho */
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 3em;
+}
+
+input:focus, textarea:focus {
+  /* al recibir el enfoque se resalta el elemento input */
+   border-color: #000;
+   background-color: lightblue;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray; 
+}
+
+div.frmTitle {
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray; 
+  background-color: white;
+}
+
+div.polaroid {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+  margin-left: 240px;
+}
+
+div.container {
+  text-align: center;
+  padding: 1px 2px;
+}
+
+td, th {
+  border: 1px solid #4E80C7;
+  padding: 5px;
+}
+td{
+  background: white;
+  color: gray;
+}
+
+ th {
+  background: lightblue;
+  color: white;
+  border-radius: 0;
+  top: 0;
+  padding: 5px;
+}
